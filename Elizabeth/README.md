@@ -59,3 +59,8 @@ After deployment is complete, the web application can be access via the Elastic 
 
 11. Confirm Infrastructure
 Login to AWS console to confirm all the resources created
+
+
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 46" src="https://github.com/user-attachments/assets/bc27d866-00ef-47ad-8064-4c38313420da" />
+
+
