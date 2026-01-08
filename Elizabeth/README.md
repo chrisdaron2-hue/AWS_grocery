@@ -44,6 +44,7 @@ The configuration in ./s3-bucket.tf file
 Through the AWS management console
 
 terraform fmt
+
 5. Initialize Terraform
 terraform init
 
