@@ -1,14 +1,14 @@
-GroceryMate – Three-Tier Architecture on AWS using Terraform
+GROCERY_MATE – THREE_TIER ARCHITECHTURE ON AWS USING TERRAFORM
 
 This project demonstrates how to deploy GroceryMate, a cloud-based grocery management and ordering platform, using a three-tier architecture on AWS provisioned with Terraform.
 
 The architecture consists of:
 
-Web Tier – Hosts the GroceryMate frontend, allowing customers to browse products, manage carts, and place grocery orders.
+WEB TIER – Hosts the GroceryMate frontend, allowing customers to browse products, manage carts, and place grocery orders.
 
-Application Tier – Handles business logic such as order processing, inventory management, pricing, and user authentication.
+APPLICATION TIER – Handles business logic such as order processing, inventory management, pricing, and user authentication.
 
-Database Tier – Stores persistent data including users, products, inventory levels, and order history.
+DATABASE TIER – Stores persistent data including users, products, inventory levels, and order history.
 
 The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG), and a custom VPC to ensure scalability, high availability, and security.
 
