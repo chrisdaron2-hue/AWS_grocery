@@ -47,8 +47,10 @@ terraform fmt
 
 5. Initialize Terraform
 terraform init
+terraform plan
+terraform apply
 
-6. Plan the deployment terraform plan
+7. Plan the deployment terraform plan
 Run the following command to see all resources terraform will create and check if matches your expection
 
 terraform plan
