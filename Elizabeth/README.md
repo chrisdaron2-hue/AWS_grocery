@@ -47,7 +47,9 @@ terraform fmt
 
 5. Initialize Terraform
 terraform init
+
 terraform plan
+
 terraform apply
 
 7. Plan the deployment terraform plan
