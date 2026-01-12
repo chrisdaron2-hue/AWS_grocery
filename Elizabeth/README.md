@@ -57,6 +57,7 @@ terraform apply
 Run the following command to see all resources terraform will create and check if matches your expection
 
 terraform plan
+
 7. Deploy the infrastructure
 terraform apply
 
