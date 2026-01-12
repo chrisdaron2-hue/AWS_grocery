@@ -46,13 +46,14 @@ Through the AWS management console
 terraform fmt
 
 5. Initialize Terraform
+   
 terraform init
 
 terraform plan
 
 terraform apply
 
-7. Plan the deployment terraform plan
+6. Plan the deployment terraform plan
 Run the following command to see all resources terraform will create and check if matches your expection
 
 terraform plan
@@ -62,7 +63,7 @@ terraform apply
 8. Access the Application
 After deployment is complete, the web application can be access via the Elastic Load Balancer's DNS name. Copy the DNS name Terraform will output and paste it into your web browser.
 
-11. Confirm Infrastructure
+9. Confirm Infrastructure
 Login to AWS console to confirm all the resources created
 
 
