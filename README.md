@@ -1,3 +1,10 @@
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94140e34-2f4c-4b9a-8568-135f44c81953" />
+
+
+
+
 GROCERY_MATE – THREE_TIER ARCHITECHTURE ON AWS USING TERRAFORM
 
 This project demonstrates how to deploy GroceryMate, a cloud-based grocery management and ordering platform, using a three-tier architecture on AWS provisioned with Terraform.
