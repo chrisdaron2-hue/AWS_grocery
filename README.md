@@ -17,8 +17,7 @@ APPLICATION TIER – Handles business logic such as order processing, inventory 
 
 DATABASE TIER – Stores persistent data including users, products, inventory levels, and order history.
 
-The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG), and a custom VPC to ensure scalability, high availability, and security.
-
+The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG), S3 and a custom VPC to ensure scalability, high availability, and security.
 
 
 
@@ -45,6 +44,7 @@ The configuration in ./s3-bucket.tf file Through the AWS management console
 terraform fmt
 
 Initialize Terraform
+
 terraform init
 
 terraform plan
