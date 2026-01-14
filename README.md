@@ -1,7 +1,6 @@
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94140e34-2f4c-4b9a-8568-135f44c81953" />
-<img width="1536" height="1024" alt="Grocery mate" src="https://github.com/user-attachments/assets/f00d2a0e-254f-4897-a87c-ff8ade16a4f9" />
 
 
 
@@ -22,7 +21,7 @@ The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Ba
 
 
 
-
+<img width="1536" height="1024" alt="Grocery mate" src="https://github.com/user-attachments/assets/f00d2a0e-254f-4897-a87c-ff8ade16a4f9" />
 
 
 
