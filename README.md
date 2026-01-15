@@ -21,7 +21,7 @@ The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Ba
 
 
 
-
+<img width="3632" height="3212" alt="image" src="https://github.com/user-attachments/assets/f31d0a17-9f00-4250-8860-82ef0914eab2" />
 
 
 
