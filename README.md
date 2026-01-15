@@ -20,8 +20,7 @@ DATABASE TIER – Stores persistent data including users, products, inventory le
 The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG), S3 and a custom VPC to ensure scalability, high availability, and security.
 
 
-<img width="3632" height="3212" alt="image" src="https://github.com/user-attachments/assets/bb341380-3028-4e33-84a9-4a928acdb8ad" />
-
+<img width="3632" height="3212" alt="image" src="https://github.com/user-attachments/assets/2ad0732f-bd5a-4e23-8970-f928f8d90bc9" />
 
 
 Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
