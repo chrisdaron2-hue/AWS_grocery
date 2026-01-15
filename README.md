@@ -21,7 +21,6 @@ The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Ba
 
 
 
-<img width="1536" height="1024" alt="Grocery mate2" src="https://github.com/user-attachments/assets/c0b343d5-8ba0-4843-8c2f-c73b405558a7" />
 
 
 
