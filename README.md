@@ -89,10 +89,13 @@ Terraform Outputs
 Usage
 SSH into the EC2 instance:
 
-ssh -i <your-key.pem> ec2-user@<ec2_public_ip>⧉
+```bash
+ssh -i your-key.pem ec2-user@your_ec2_public_ip
+```
+ssh -i <your-key.pem> ec2-user@<ec2_public_ip>
 Connect to PostgreSQL:
 
-psql -h <db_endpoint> -U <db_username> -d <db_name>⧉
+psql -h <db_endpoint> -U <db_username> -d <db_name>
 
 Access S3 bucket via AWS CLI or console
 
