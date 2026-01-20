@@ -41,17 +41,24 @@ terraform fmt
 
 Initialize Terraform
 
+
+
 Prerequisites
+
+
+
 
 Terraform >= 1.5.0
 AWS CLI configured with access credentials
 Git
 AWS account
 Terraform Setup
-Clone the repository:
+Clone the repository: https://github.com/chrisdaron2-hue/AWS_grocery.git
 
-git clone https://github.com/peridianjoytabe1980-ai/AWS_grocery.git
+git clone 
+
 cd AWS_grocery/infrastructure
+
 Initialize Terraform:
 
 terraform init
@@ -90,12 +97,6 @@ psql -h <db_endpoint> -U <db_username> -d <db_name>
 Access S3 bucket via AWS CLI or console
 
 
-
-terraform init
-
-terraform plan
-
-terraform apply
 
 Plan the deployment terraform plan Run the following command to see all resources terraform will create and check if matches your expection
 terraform plan
