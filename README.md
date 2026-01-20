@@ -91,7 +91,7 @@ Include a table of important outputs so users know what resources were created:
 | `db_endpoint` | `terraform-xxxx.rds.amazonaws.com:5432` | RDS database endpoint |
 | `db_instance_id` | `db-xxxxxxxx` | RDS instance ID |
 | `ec2_instance_id` | `i-xxxxxxxx` | EC2 instance ID |
-| `ec2_public_ip` | `35.156.167.241` | Public IP of the EC2 instance |
+| `ec2_public_ip` | `63.178.191.196` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-elizabeth-dev-eu` | S3 bucket for avatars |
 
 ## Usage
