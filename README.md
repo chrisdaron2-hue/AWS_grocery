@@ -53,9 +53,11 @@ AWS CLI configured with access credentials
 Git
 AWS account
 Terraform Setup
-Clone the repository: https://github.com/chrisdaron2-hue/AWS_grocery.git
+Clone the repository: 
 
-git clone 
+
+     git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
+           
 
 cd AWS_grocery/infrastructure
 
@@ -90,7 +92,7 @@ Usage
 SSH into the EC2 instance:
 
 ```bash
-ssh -i your-key.pem ec2-user@your_ec2_public_ip
+ssh -i <your-key.pem> ec2-user@<your_ec2_public_ip>
 ```
 
 Connect to PostgreSQL:
