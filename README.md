@@ -56,7 +56,39 @@ Before deploying, ensure you have:
 
 ## Setup Instructions
 
+ HEAD
 1. **Clone the repository**
+
+Clone the repository git clone https://github.com/chrisdaron2-hue/AWS_grocery.git)
+
+Change to the project folder cd AWS_grocery
+
+Create S3 bucket to store the state file Create S3 bucket for backend to store Terraform state file. The S3 bucket can be created with either
+
+The configuration in ./s3-bucket.tf file Through the AWS management console
+
+terraform fmt
+
+Initialize Terraform
+
+
+
+Prerequisites
+
+
+
+
+Terraform >= 1.5.0
+AWS CLI configured with access credentials
+Git
+AWS account
+Terraform Setup
+Clone the repository: 
+
+
+     git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
+           
+>>>>>>> 897efc7 (Improve README with clearer clone and SSH commands)
 
 ```bash
 git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
@@ -94,7 +126,7 @@ Usage
 SSH into the EC2 instance:
 
 ```bash
-ssh -i your-key.pem ec2-user@your_ec2_public_ip
+ssh -i <your-key.pem> ec2-user@<your_ec2_public_ip>
 ```
 
 Connect to PostgreSQL:
