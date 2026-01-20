@@ -71,11 +71,11 @@ terraform fmt
 
 Initialize Terraform
 
+---
 
+##Prerequisites
 
-Prerequisites
-
-
+---
 
 Terraform >= 1.5.0
 
@@ -92,7 +92,7 @@ Clone the repository:
 
      git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
            
->>>>>>> 897efc7 (Improve README with clearer clone and SSH commands)
+ (Improve README with clearer clone and SSH commands)
 
 ```bash
 git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
@@ -101,22 +101,28 @@ cd AWS_grocery/infrastructure
 
 Initialize Terraform:
 
-terraform init
+---
 
-Review the Terraform plan:
+• Initialize Terraform:
 
-terraform plan
+ (Refactor README for clarity and formatting)
 
-Apply the Terraform plan:
+   terraform init
 
-terraform apply
+• Review the Terraform plan:
+
+   terraform plan
+
+• Apply the Terraform plan:
+
+   terraform apply
 
 Enter your RDS password when prompted.
 
-List Terraform Outputs
+## List Terraform Outputs
 Include a table of important outputs so users know what resources were created:
 
-Terraform Outputs
+# Terraform Outputs
 
 | Output | Example Value | Description |
 |--------|---------------|-------------|
@@ -126,7 +132,10 @@ Terraform Outputs
 | `ec2_instance_id` | `i-xxxxxxxx` | EC2 instance ID |
 | `ec2_public_ip` | `35.156.167.241` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-tabe2` | S3 bucket for avatars |
+
+
 Usage
+
 SSH into the EC2 instance:
 
 ```bash
