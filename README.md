@@ -37,6 +37,56 @@ terraform fmt
 
 Initialize Terraform
 
+Prerequisites
+
+Terraform >= 1.5.0
+AWS CLI configured with access credentials
+Git
+AWS account
+Terraform Setup
+Clone the repository:
+
+git clone https://github.com/peridianjoytabe1980-ai/AWS_grocery.git
+cd AWS_grocery/infrastructure
+Initialize Terraform:
+
+terraform init
+
+Review the Terraform plan:
+
+terraform plan
+
+Apply the Terraform plan:
+
+terraform apply
+
+Enter your RDS password when prompted.
+
+List Terraform Outputs
+Include a table of important outputs so users know what resources were created:
+
+Terraform Outputs
+
+| Output | Example Value | Description |
+|--------|---------------|-------------|
+| `aws_region` | `eu-central-1` | AWS region where resources are deployed |
+| `db_endpoint` | `terraform-xxxx.rds.amazonaws.com:5432` | RDS database endpoint |
+| `db_instance_id` | `db-xxxxxxxx` | RDS instance ID |
+| `ec2_instance_id` | `i-xxxxxxxx` | EC2 instance ID |
+| `ec2_public_ip` | `35.156.167.241` | Public IP of the EC2 instance |
+| `avatars_bucket_name` | `grocerymate-avatars-tabe2` | S3 bucket for avatars |
+Usage
+SSH into the EC2 instance:
+
+ssh -i <your-key.pem> ec2-user@<ec2_public_ip>
+Connect to PostgreSQL:
+
+psql -h <db_endpoint> -U <db_username> -d <db_name>
+
+Access S3 bucket via AWS CLI or console
+
+
+
 terraform init
 
 terraform plan
