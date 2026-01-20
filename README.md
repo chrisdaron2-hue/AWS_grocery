@@ -43,7 +43,7 @@ Initialize Terraform
 
 ---
 
-##Prerequisites
+## Prerequisites
 
 ---
 
@@ -92,7 +92,9 @@ Include a table of important outputs so users know what resources were created:
 | `ec2_instance_id` | `i-xxxxxxxx` | EC2 instance ID |
 | `ec2_public_ip` | `35.156.167.241` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-tabe2` | S3 bucket for avatars |
-Usage
+
+## Usage
+
 SSH into the EC2 instance:
 
 ```bash
