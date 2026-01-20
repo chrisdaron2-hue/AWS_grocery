@@ -79,10 +79,15 @@ Prerequisites
 
 
 Terraform >= 1.5.0
+
 AWS CLI configured with access credentials
+
 Git
+
 AWS account
+
 Terraform Setup
+
 Clone the repository: 
 
 
