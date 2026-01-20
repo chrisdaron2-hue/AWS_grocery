@@ -4,7 +4,12 @@
 [![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)](https://aws.amazon.com/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
+
 GroceryMate is a cloud-based grocery management and ordering platform deployed using a **three-tier architecture** on AWS with **Terraform**.
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94140e34-2f4c-4b9a-8568-135f44c81953" />
+
 
 ---
 
@@ -56,7 +61,7 @@ Before deploying, ensure you have:
 
 ## Setup Instructions
 
- HEAD
+ 
 1. **Clone the repository**
 
 Clone the repository git clone https://github.com/chrisdaron2-hue/AWS_grocery.git)
@@ -133,12 +138,12 @@ Include a table of important outputs so users know what resources were created:
 | `ec2_public_ip` | `35.156.167.241` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-tabe2` | S3 bucket for avatars |
 
-<<<<<<< HEAD
+
 
 Usage
 
 ## Usage
->>>>>>> e58cead (Fix formatting and update prerequisites section)
+
 
 SSH into the EC2 instance:
 
