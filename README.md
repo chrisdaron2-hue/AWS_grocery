@@ -41,11 +41,11 @@ terraform fmt
 
 Initialize Terraform
 
+---
 
+##Prerequisites
 
-Prerequisites
-
-
+---
 
 Terraform >= 1.5.0
 
@@ -65,24 +65,24 @@ Clone the repository:
 
 cd AWS_grocery/infrastructure
 
-Initialize Terraform:
+• Initialize Terraform:
 
-terraform init
+   terraform init
 
-Review the Terraform plan:
+• Review the Terraform plan:
 
-terraform plan
+   terraform plan
 
-Apply the Terraform plan:
+• Apply the Terraform plan:
 
-terraform apply
+   terraform apply
 
 Enter your RDS password when prompted.
 
-List Terraform Outputs
+## List Terraform Outputs
 Include a table of important outputs so users know what resources were created:
 
-Terraform Outputs
+# Terraform Outputs
 
 | Output | Example Value | Description |
 |--------|---------------|-------------|
