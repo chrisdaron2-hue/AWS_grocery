@@ -62,3 +62,63 @@ Before deploying, ensure you have:
 git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
 cd AWS_grocery/infrastructure
 
+
+Initialize Terraform:
+
+terraform init
+
+Review the Terraform plan:
+
+terraform plan
+
+Apply the Terraform plan:
+
+terraform apply
+
+Enter your RDS password when prompted.
+
+List Terraform Outputs
+Include a table of important outputs so users know what resources were created:
+
+Terraform Outputs
+
+| Output | Example Value | Description |
+|--------|---------------|-------------|
+| `aws_region` | `eu-central-1` | AWS region where resources are deployed |
+| `db_endpoint` | `terraform-xxxx.rds.amazonaws.com:5432` | RDS database endpoint |
+| `db_instance_id` | `db-xxxxxxxx` | RDS instance ID |
+| `ec2_instance_id` | `i-xxxxxxxx` | EC2 instance ID |
+| `ec2_public_ip` | `35.156.167.241` | Public IP of the EC2 instance |
+| `avatars_bucket_name` | `grocerymate-avatars-tabe2` | S3 bucket for avatars |
+Usage
+SSH into the EC2 instance:
+
+ssh -i <your-key.pem> ec2-user@<ec2_public_ip>⧉
+Connect to PostgreSQL:
+
+psql -h <db_endpoint> -U <db_username> -d <db_name>⧉
+
+Access S3 bucket via AWS CLI or console
+
+
+
+Plan the deployment terraform plan Run the following command to see all resources terraform will create and check if matches your expection
+terraform plan
+
+Deploy the infrastructure terraform apply
+
+Access the Application After deployment is complete, the web application can be access via the Elastic Load Balancer's DNS name. Copy the DNS name Terraform will output and paste it into your web browser.
+
+Confirm Infrastructure Login to AWS console to confirm all the resources created
+
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 46" src="https://github.com/user-attachments/assets/bc27d866-00ef-47ad-8064-4c38313420da" />
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 24" src="https://github.com/user-attachments/assets/9034cba6-ad4c-415d-aa1a-cab00a446b6c" /><img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 51 46" src="https://github.com/user-attachments/assets/bd067475-95b3-4fe3-9d54-0e1bb8054cac" />
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 52 34" src="https://github.com/user-attachments/assets/6e90a5ed-badb-40d0-8672-d8f61711de79" />
+
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 53 25" src="https://github.com/user-attachments/assets/09f60a62-5b58-4f09-ab63-e752324f3d78" />
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 55 05" src="https://github.com/user-attachments/assets/d19ba18f-173e-4d44-bc59-b04cceb3165c" />
+ (Fix formatting of SSH and PostgreSQL commands)
+
+
+```bash
+git add README.md
