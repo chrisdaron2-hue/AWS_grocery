@@ -3,8 +3,6 @@
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94140e34-2f4c-4b9a-8568-135f44c81953" />
 
 
-
-
 GROCERY_MATE – THREE_TIER ARCHITECHTURE ON AWS USING TERRAFORM
 
 This project demonstrates how to deploy GroceryMate, a cloud-based grocery management and ordering platform, using a three-tier architecture on AWS provisioned with Terraform.
@@ -19,8 +17,6 @@ DATABASE TIER – Stores persistent data including users, products, inventory le
 
 The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG), S3 and a custom VPC to ensure scalability, high availability, and security.
 
-
-<img width="3632" height="3212" alt="image" src="https://github.com/user-attachments/assets/2ad0732f-bd5a-4e23-8970-f928f8d90bc9" />
 
 
 Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
