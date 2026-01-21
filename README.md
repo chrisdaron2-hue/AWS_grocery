@@ -84,7 +84,7 @@ Terraform modules are used to organize and manage the infrastructure code, enabl
  
 - AWS CLI
   
-- Terraform-1.5.0
+- Terraform >=1.5.0
   
 - Git
 
