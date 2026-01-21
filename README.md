@@ -51,18 +51,6 @@ The three-tier architecture consists of:
 
 ---
 
-## Prerequisites
-
-Before deploying, ensure you have
-
-- AWS account with sufficient IAM permissions
- 
-- AWS CLI
-  
-- Terraform (v1.3+)
-  
-- Git
-
 ## Infrastructure Overview
 
 
@@ -74,6 +62,19 @@ Together, these components form a resilient and flexible cloud architecture capa
 
 Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
  
+## Prerequisites
+
+# Before deploying, ensure you have
+
+- AWS account with sufficient IAM permissions
+ 
+- AWS CLI
+  
+- Terraform (v1.3+)
+  
+- Git
+
+
 ---
 
 
