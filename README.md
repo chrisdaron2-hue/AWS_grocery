@@ -205,6 +205,6 @@ Confirm Infrastructure Login to AWS console to confirm all the resources created
 
 <img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 53 25" src="https://github.com/user-attachments/assets/09f60a62-5b58-4f09-ab63-e752324f3d78" />
 <img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 55 05" src="https://github.com/user-attachments/assets/d19ba18f-173e-4d44-bc59-b04cceb3165c" />
- (Fix formatting of SSH and PostgreSQL commands)
+
 
 
