@@ -24,6 +24,20 @@ The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Ba
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1c2dc8b-d2ec-4842-ac4d-70abbf6c23eb" />
 
 
+## Infrastructure Overview
+
+The infrastructure is built using Amazon Web Services (AWS) to ensure **scalability**, **high availability**, and **security**. It leverages the following core services:
+
+- **Amazon EC2** – Provides scalable compute capacity for application workloads  
+- **Amazon RDS** – Managed relational database service for data persistence  
+- **Elastic Load Balancer (ELB)** – Distributes incoming traffic across multiple EC2 instances  
+- **Auto Scaling Groups (ASG)** – Automatically adjusts compute capacity based on demand  
+- **Amazon S3** – Object storage for static assets, backups, and logs  
+- **Custom VPC** – Isolated network environment with controlled access and enhanced security
+
+Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
+
+
 Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
 
 Prerequisites Before you begin, ensure you have:
@@ -37,6 +51,8 @@ Change to the project folder cd AWS_grocery
 Create S3 bucket to store the state file Create S3 bucket for backend to store Terraform state file. The S3 bucket can be created with either
 
 The configuration in ./s3-bucket.tf file Through the AWS management console
+
+
 
 terraform fmt
 
