@@ -44,7 +44,8 @@ The three-tier architecture consists of:
 - S3 (Storage)  
 - Custom VPC (Network isolation)
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/116e37a6-9367-4ddd-9419-970107172bcb" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/76b078c2-3491-4949-8617-95edd8a6af1e" />
+
 
 ## Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
 
@@ -86,9 +87,6 @@ aws configure
 aws sso login
 ```
 
-
-
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1c2dc8b-d2ec-4842-ac4d-70abbf6c23eb" />
 
 
 ## Infrastructure Overview
