@@ -54,6 +54,14 @@ The three-tier architecture consists of:
 
 Before deploying, ensure you have
 
+- AWS account with sufficient IAM permissions
+ 
+- AWS CLI
+  
+- Terraform (v1.3+)
+  
+- Git
+
 ## Infrastructure Overview
 
 ## Installation – Grocery_mate (Terraform)
@@ -63,14 +71,9 @@ The infrastructure is designed for **scalability**, **high availability**, and *
 
 ---
 
-### Prerequisites
 
 Ensure the following are installed and configured:
 
-- AWS account with sufficient IAM permissions
-- AWS CLI
-- Terraform (v1.3+)
-- Git
 
 Configure AWS credentials:
 
