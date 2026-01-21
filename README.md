@@ -64,7 +64,7 @@ Terraform modules are used to organize and manage the infrastructure code, enabl
  
 ## Prerequisites
 
-# Before deploying, ensure you have
+### Before deploying, ensure you have
 
 - AWS account with sufficient IAM permissions
  
