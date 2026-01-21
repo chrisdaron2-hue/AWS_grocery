@@ -168,10 +168,9 @@ Enter your RDS password when prompted.
 | `ec2_public_ip` | `63.178.191.196` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-elizabeth-dev-eu` | S3 bucket for avatars |
 
+```
 
 ## Usage
-
-
 
 
 
