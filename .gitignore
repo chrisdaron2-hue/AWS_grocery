@@ -22,3 +22,4 @@ terraform.tfstate
 terraform.tfstate.backup
 infrastructure/terraform.tfvars
 
+README_backup.md
