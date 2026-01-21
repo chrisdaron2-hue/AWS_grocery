@@ -22,7 +22,7 @@ GroceryMate is a cloud-based grocery management and ordering platform deployed u
 5. [Usage](#usage)  
 6. [Deployment Workflow](#deployment-workflow)  
 7. [Verify Infrastructure](#verify-infrastructure)  
-8. [Notes](#notes)
+
 
 ---
 
@@ -129,7 +129,6 @@ Clone the repository:
 
      git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
            
- (Improve README with clearer clone and SSH commands)
 
 ```bash
 git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
@@ -141,8 +140,6 @@ Initialize Terraform:
 ---
 
 • Initialize Terraform:
-
- (Refactor README for clarity and formatting)
 
    terraform init
 
@@ -170,11 +167,11 @@ Include a table of important outputs so users know what resources were created:
 | `ec2_public_ip` | `63.178.191.196` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-elizabeth-dev-eu` | S3 bucket for avatars |
 
-
-
-Usage
+```
 
 ## Usage
+
+
 
 
 SSH into the EC2 instance:
@@ -211,5 +208,3 @@ Confirm Infrastructure Login to AWS console to confirm all the resources created
  (Fix formatting of SSH and PostgreSQL commands)
 
 
-```bash
-git add README.md
