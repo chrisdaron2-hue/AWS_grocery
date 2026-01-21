@@ -107,26 +107,13 @@ Ensure the following are installed and configured:
 - Terraform (v1.3+)
 - Git
 
-Configure AWS credentials:
-
-```bash
-aws configure
-```
-
 
 
 Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
 
 
 Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
- (Update README.md)
-
-- Terraform >= 1.5.0 installed  
-- AWS CLI configured with IAM credentials  
-- Git installed  
-- AWS account  
-- Basic understanding of Terraform and AWS services (EC2, RDS, ELB, ASG, VPC)  
-
+ 
 ---
 
 ## Setup Instructions
