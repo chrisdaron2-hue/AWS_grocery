@@ -129,8 +129,7 @@ Clone the repository:
      git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
            
 
-
-cd AWS_grocery/infrastructure
+     cd AWS_grocery/infrastructure
 
 
 ```bash
