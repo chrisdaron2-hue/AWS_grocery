@@ -156,10 +156,8 @@ Initialize Terraform:
 
 Enter your RDS password when prompted.
 
-## List Terraform Outputs
-Include a table of important outputs so users know what resources were created:
 
-# Terraform Outputs
+## Terraform Outputs
 
 | Output | Example Value | Description |
 |--------|---------------|-------------|
