@@ -44,7 +44,6 @@ The three-tier architecture consists of:
 - S3 (Storage)  
 - Custom VPC (Network isolation)
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1c2dc8b-d2ec-4842-ac4d-70abbf6c23eb" />
 
 
 
