@@ -1,9 +1,12 @@
 resource "aws_s3_bucket" "avatars" {
-<<<<<<< HEAD
+
   bucket = "grocerymate-avatars-2026-elizabeth"
-=======
+
   bucket = "grocerymate-avatars-2026-elizabeth-001"  # updated
->>>>>>> c29d763 (Initial commit: add Terraform infrastructure code)
+ (Initial commit: add Terraform infrastructure code)
+
+  bucket = "grocerymate-avatars-2026-elizabeth"
+>>>>>>> version2-repo/version2
   tags = {
     Name        = "grocerymate-avatars"
     Environment = "Dev"

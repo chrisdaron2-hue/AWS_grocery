@@ -1,24 +1,85 @@
+# GroceryMate – Three-Tier Architecture on AWS Using Terraform
+
+[![Terraform](https://img.shields.io/badge/Terraform-1.5+-blue?logo=terraform)](https://www.terraform.io/)
+[![AWS](https://img.shields.io/badge/AWS-Cloud-orange?logo=amazon-aws)](https://aws.amazon.com/)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
+
+GroceryMate is a cloud-based grocery management and ordering platform deployed using a **three-tier architecture** on AWS with **Terraform**.
 
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/94140e34-2f4c-4b9a-8568-135f44c81953" />
 
 
+---
+
+## Table of Contents
+
+1. [Architecture Overview](#architecture-overview)  
+2. [Prerequisites](#prerequisites)  
+3. [Setup Instructions](#setup-instructions)  
+4. [Terraform Outputs](#terraform-outputs)  
+5. [Usage](#usage)  
+6. [Deployment Workflow](#deployment-workflow)  
+7. [Verify Infrastructure](#verify-infrastructure)  
 
 
-GROCERY_MATE – THREE_TIER ARCHITECHTURE ON AWS USING TERRAFORM
+---
 
-This project demonstrates how to deploy GroceryMate, a cloud-based grocery management and ordering platform, using a three-tier architecture on AWS provisioned with Terraform.
+## Architecture Overview
 
-The architecture consists of:
+The three-tier architecture consists of:
 
-WEB TIER – Hosts the GroceryMate frontend, allowing customers to browse products, manage carts, and place grocery orders.
+- **Web Tier:** Hosts the frontend for customers to browse products, manage carts, and place orders.  
+- **Application Tier:** Handles business logic such as order processing, inventory, pricing, and authentication.  
+- **Database Tier:** Stores persistent data including users, products, inventory levels, and order history.  
 
-APPLICATION TIER – Handles business logic such as order processing, inventory management, pricing, and user authentication.
+**AWS Services Used:**
 
-DATABASE TIER – Stores persistent data including users, products, inventory levels, and order history.
+- EC2 (Compute)  
+- RDS (Database)  
+- Elastic Load Balancer (ELB)  
+- Auto Scaling Groups (ASG)  
+- S3 (Storage)  
+- Custom VPC (Network isolation)  
 
-The infrastructure is built using AWS services such as EC2, RDS, Elastic Load Balancer (ELB), Auto Scaling Groups (ASG), S3 and a custom VPC to ensure scalability, high availability, and security.
+Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
+
+---
+
+## Prerequisites
+
+Before deploying, ensure you have
+## Infrastructure Overview
+
+## Installation – Grocery_mate (Terraform)
+
+This project uses **Terraform** to provision and deploy the **Grocery_mate** infrastructure on **AWS**.  
+The infrastructure is designed for **scalability**, **high availability**, and **security**, leveraging core AWS services such as EC2, RDS, ELB/ALB, Auto Scaling Groups, S3, and a custom VPC.
+
+---
+
+### Prerequisites
+
+Ensure the following are installed and configured:
+
+- AWS account with sufficient IAM permissions
+- AWS CLI
+- Terraform (v1.3+)
+- Git
+
+Configure AWS credentials:
+
+```bash
+aws configure
+
+```
+
+```bash
+aws sso login
+```
+
 
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1c2dc8b-d2ec-4842-ac4d-70abbf6c23eb" />
@@ -49,14 +110,25 @@ aws configure
 ```
 
 
+
 Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
 
 
 Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
+ (Update README.md)
 
-Prerequisites Before you begin, ensure you have:
+- Terraform >= 1.5.0 installed  
+- AWS CLI configured with IAM credentials  
+- Git installed  
+- AWS account  
+- Basic understanding of Terraform and AWS services (EC2, RDS, ELB, ASG, VPC)  
 
-Basic knowledge of Terraform and AWS services such as EC2, ELB, ASG, RDS and VPC Terraform installed on your local machine An AWS account AWS CLI configured with appropriate IAM user credentials (secret access key and access key ID) Steps
+---
+
+## Setup Instructions
+
+ 
+1. **Clone the repository**
 
 Clone the repository git clone https://github.com/chrisdaron2-hue/AWS_grocery.git)
 
@@ -94,7 +166,19 @@ Clone the repository:
      git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
            
 
+
 cd AWS_grocery/infrastructure
+
+
+```bash
+git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
+cd AWS_grocery/infrastructure
+
+
+Initialize Terraform:
+
+---
+
 
 • Initialize Terraform:
 
@@ -124,7 +208,12 @@ Include a table of important outputs so users know what resources were created:
 | `ec2_public_ip` | `63.178.191.196` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-elizabeth-dev-eu` | S3 bucket for avatars |
 
+
 ## Usage
+
+
+
+
 
 SSH into the EC2 instance:
 
@@ -157,3 +246,6 @@ Confirm Infrastructure Login to AWS console to confirm all the resources created
 
 <img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 53 25" src="https://github.com/user-attachments/assets/09f60a62-5b58-4f09-ab63-e752324f3d78" />
 <img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 55 05" src="https://github.com/user-attachments/assets/d19ba18f-173e-4d44-bc59-b04cceb3165c" />
+ (Fix formatting of SSH and PostgreSQL commands)
+
+
