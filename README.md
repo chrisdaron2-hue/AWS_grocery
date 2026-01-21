@@ -46,6 +46,28 @@ The three-tier architecture consists of:
 
 
 
+# AWS Services Overview
+
+## Compute
+- **EC2 (Elastic Compute Cloud)**: Provides scalable virtual servers for running applications.
+
+## Database
+- **RDS (Relational Database Service)**: Managed relational database service supporting multiple database engines.
+
+## Load Balancing
+- **Elastic Load Balancer (ELB)**: Distributes incoming application traffic across multiple targets for high availability.
+
+## Scaling
+- **Auto Scaling Groups (ASG)**: Automatically adjusts the number of EC2 instances based on demand.
+
+## Storage
+- **S3 (Simple Storage Service)**: Object storage service for storing and retrieving any amount of data.
+
+## Networking
+- **Custom VPC (Virtual Private Cloud)**: Provides network isolation and control over your cloud resources.
+
+
+
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/76b078c2-3491-4949-8617-95edd8a6af1e" />
 
 ---
