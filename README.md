@@ -61,32 +61,44 @@ The three-tier architecture consists of:
 
 
 
-
-
-Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
+## Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
 
 ---
 
-## Prerequisites
-
-Before deploying, ensure you have
 ## Infrastructure Overview
 
-## Installation – Grocery_mate (Terraform)
 
 This project uses **Terraform** to provision and deploy the **Grocery_mate** infrastructure on **AWS**.  
 The infrastructure is designed for **scalability**, **high availability**, and **security**, leveraging core AWS services such as EC2, RDS, ELB/ALB, Auto Scaling Groups, S3, and a custom VPC.
 
+Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
+
+
+Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
+ 
+## Prerequisites
+
+### Before deploying, ensure you have
+
+- AWS account with sufficient IAM permissions
+ 
+- AWS CLI
+  
+- Terraform-1.5.0
+  
+- Git
+
+
 ---
 
-### Prerequisites
+
+
+
+
 
 Ensure the following are installed and configured:
 
-- AWS account with sufficient IAM permissions
-- AWS CLI
-- Terraform (v1.3+)
-- Git
+## Installation – Grocery_mate (Terraform)
 
 Configure AWS credentials:
 
@@ -98,48 +110,6 @@ aws configure
 ```bash
 aws sso login
 ```
-
-
-
-
-
-## Infrastructure Overview
-
-## Installation – Grocery_mate (Terraform)
-
-This project uses **Terraform** to provision and deploy the **Grocery_mate** infrastructure on **AWS**.  
-The infrastructure is designed for **scalability**, **high availability**, and **security**, leveraging core AWS services such as EC2, RDS, ELB/ALB, Auto Scaling Groups, S3, and a custom VPC.
-
----
-
-### Prerequisites
-
-Ensure the following are installed and configured:
-
-- AWS account with sufficient IAM permissions
-- AWS CLI
-- Terraform (v1.3+)
-- Git
-
-Configure AWS credentials:
-
-```bash
-aws configure
-```
-
-
-
-Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
-
-
-Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
- (Update README.md)
-
-- Terraform >= 1.5.0 installed  
-- AWS CLI configured with IAM credentials  
-- Git installed  
-- AWS account  
-- Basic understanding of Terraform and AWS services (EC2, RDS, ELB, ASG, VPC)  
 
 ---
 
@@ -164,19 +134,8 @@ Initialize Terraform
 
 ---
 
-## Prerequisites
 
----
-
-Terraform >= 1.5.0
-
-AWS CLI configured with access credentials
-
-Git
-
-AWS account
-
-Terraform Setup
+## Terraform Setup
 
 Clone the repository: 
 
@@ -184,8 +143,7 @@ Clone the repository:
      git clone https://github.com/chrisdaron2-hue/AWS_grocery.git
            
 
-
-cd AWS_grocery/infrastructure
+     cd AWS_grocery/infrastructure
 
 
 ```bash
@@ -212,10 +170,8 @@ Initialize Terraform:
 
 Enter your RDS password when prompted.
 
-## List Terraform Outputs
-Include a table of important outputs so users know what resources were created:
 
-# Terraform Outputs
+## Terraform Outputs
 
 | Output | Example Value | Description |
 |--------|---------------|-------------|
@@ -226,10 +182,9 @@ Include a table of important outputs so users know what resources were created:
 | `ec2_public_ip` | `63.178.191.196` | Public IP of the EC2 instance |
 | `avatars_bucket_name` | `grocerymate-avatars-elizabeth-dev-eu` | S3 bucket for avatars |
 
+```
 
 ## Usage
-
-
 
 
 
@@ -257,6 +212,11 @@ Deploy the infrastructure terraform apply
 Access the Application After deployment is complete, the web application can be access via the Elastic Load Balancer's DNS name. Copy the DNS name Terraform will output and paste it into your web browser.
 
 Confirm Infrastructure Login to AWS console to confirm all the resources created
+
+
+
+
+
 
 
 
