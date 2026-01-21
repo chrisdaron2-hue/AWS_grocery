@@ -65,16 +65,30 @@ Before deploying, ensure you have
 
 ## Infrastructure Overview
 
-## Installation – Grocery_mate (Terraform)
 
 This project uses **Terraform** to provision and deploy the **Grocery_mate** infrastructure on **AWS**.  
 The infrastructure is designed for **scalability**, **high availability**, and **security**, leveraging core AWS services such as EC2, RDS, ELB/ALB, Auto Scaling Groups, S3, and a custom VPC.
 
+Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
+
+
+Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
+ 
 ---
 
 
+### Prerequisites
+
 Ensure the following are installed and configured:
 
+- AWS account with sufficient IAM permissions
+- AWS CLI
+- Terraform (v1.3+)
+- Git
+
+Ensure the following are installed and configured:
+
+## Installation – Grocery_mate (Terraform)
 
 Configure AWS credentials:
 
@@ -87,33 +101,6 @@ aws configure
 aws sso login
 ```
 
-
-
-## Infrastructure Overview
-
-## Installation – Grocery_mate (Terraform)
-
-This project uses **Terraform** to provision and deploy the **Grocery_mate** infrastructure on **AWS**.  
-The infrastructure is designed for **scalability**, **high availability**, and **security**, leveraging core AWS services such as EC2, RDS, ELB/ALB, Auto Scaling Groups, S3, and a custom VPC.
-
----
-
-### Prerequisites
-
-Ensure the following are installed and configured:
-
-- AWS account with sufficient IAM permissions
-- AWS CLI
-- Terraform (v1.3+)
-- Git
-
-
-
-Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
-
-
-Terraform modules are used to organize and manage the infrastructure code, enabling reusability, maintainability, and easy deployment across environments.
- 
 ---
 
 ## Setup Instructions
