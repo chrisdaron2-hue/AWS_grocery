@@ -42,7 +42,26 @@ The three-tier architecture consists of:
 - Elastic Load Balancer (ELB)  
 - Auto Scaling Groups (ASG)  
 - S3 (Storage)  
-- Custom VPC (Network isolation)  
+- Custom VPC (Network isolation)
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1c2dc8b-d2ec-4842-ac4d-70abbf6c23eb" />
+
+
+
+
+---
+
+
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 46" src="https://github.com/user-attachments/assets/bc27d866-00ef-47ad-8064-4c38313420da" />
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 24" src="https://github.com/user-attachments/assets/9034cba6-ad4c-415d-aa1a-cab00a446b6c" /><img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 51 46" src="https://github.com/user-attachments/assets/bd067475-95b3-4fe3-9d54-0e1bb8054cac" />
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 52 34" src="https://github.com/user-attachments/assets/6e90a5ed-badb-40d0-8672-d8f61711de79" />
+
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 53 25" src="https://github.com/user-attachments/assets/09f60a62-5b58-4f09-ab63-e752324f3d78" />
+<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 55 05" src="https://github.com/user-attachments/assets/d19ba18f-173e-4d44-bc59-b04cceb3165c" />
+
+
+
+
 
 Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
 
@@ -82,7 +101,6 @@ aws sso login
 
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/e1c2dc8b-d2ec-4842-ac4d-70abbf6c23eb" />
 
 
 ## Infrastructure Overview
@@ -240,12 +258,5 @@ Access the Application After deployment is complete, the web application can be 
 
 Confirm Infrastructure Login to AWS console to confirm all the resources created
 
-<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 46" src="https://github.com/user-attachments/assets/bc27d866-00ef-47ad-8064-4c38313420da" />
-<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 50 24" src="https://github.com/user-attachments/assets/9034cba6-ad4c-415d-aa1a-cab00a446b6c" /><img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 51 46" src="https://github.com/user-attachments/assets/bd067475-95b3-4fe3-9d54-0e1bb8054cac" />
-<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 52 34" src="https://github.com/user-attachments/assets/6e90a5ed-badb-40d0-8672-d8f61711de79" />
-
-<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 53 25" src="https://github.com/user-attachments/assets/09f60a62-5b58-4f09-ab63-e752324f3d78" />
-<img width="1470" height="956" alt="Screenshot 2026-01-07 at 19 55 05" src="https://github.com/user-attachments/assets/d19ba18f-173e-4d44-bc59-b04cceb3165c" />
- (Fix formatting of SSH and PostgreSQL commands)
 
 
