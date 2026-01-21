@@ -72,6 +72,9 @@ Configure AWS credentials:
 
 ```bash
 aws configure
+
+
+aws sso login
 ```
 
 
