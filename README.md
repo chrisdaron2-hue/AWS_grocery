@@ -46,7 +46,7 @@ The three-tier architecture consists of:
 
 
 
-
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/76b078c2-3491-4949-8617-95edd8a6af1e" />
 
 ---
 
