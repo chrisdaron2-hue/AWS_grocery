@@ -80,7 +80,6 @@ Terraform modules are used to organize and manage the infrastructure code, enabl
 
 
 
-Ensure the following are installed and configured:
 
 
 Ensure the following are installed and configured:
@@ -121,19 +120,8 @@ Initialize Terraform
 
 ---
 
-## Prerequisites
 
----
-
-Terraform >= 1.5.0
-
-AWS CLI configured with access credentials
-
-Git
-
-AWS account
-
-Terraform Setup
+## Terraform Setup
 
 Clone the repository: 
 
