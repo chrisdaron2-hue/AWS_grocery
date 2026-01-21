@@ -60,7 +60,7 @@ The three-tier architecture consists of:
 
 
 
-## Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
+## Terraform modules are used for **reuseability**, **maintainability**, and easy deployment across environments.
 
 ---
 
