@@ -54,11 +54,11 @@ Before deploying, ensure you have
 
 The infrastructure is built using Amazon Web Services (AWS) to ensure **scalability**, **high availability**, and **security**. It leverages the following core services:
 
-- **Amazon EC2** – Provides scalable compute capacity for application workloads  
-- **Amazon RDS** – Managed relational database service for data persistence  
-- **Elastic Load Balancer (ELB)** – Distributes incoming traffic across multiple EC2 instances  
-- **Auto Scaling Groups (ASG)** – Automatically adjusts compute capacity based on demand  
-- **Amazon S3** – Object storage for static assets, backups, and logs  
+- **Amazon EC2** –                   Provides scalable compute capacity for application workloads  
+- **Amazon RDS** –                   Managed relational database service for data persistence  
+- **Elastic Load Balancer (ELB)** –  Distributes incoming traffic across multiple EC2 instances  
+- **Auto Scaling Groups (ASG)** –    Automatically adjusts compute capacity based on demand  
+- **Amazon S3** –                    Object storage for static assets, backups, and logs  
 - **Custom VPC** – Isolated network environment with controlled access and enhanced security
 
 Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
