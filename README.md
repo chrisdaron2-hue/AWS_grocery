@@ -42,7 +42,9 @@ The three-tier architecture consists of:
 - Elastic Load Balancer (ELB)  
 - Auto Scaling Groups (ASG)  
 - S3 (Storage)  
-- Custom VPC (Network isolation)  
+- Custom VPC (Network isolation)
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/116e37a6-9367-4ddd-9419-970107172bcb" />
 
 Terraform modules are used for **reusability**, **maintainability**, and easy deployment across environments.
 
