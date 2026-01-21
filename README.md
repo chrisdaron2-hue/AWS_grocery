@@ -53,6 +53,7 @@ The three-tier architecture consists of:
 ## Prerequisites
 
 Before deploying, ensure you have
+
 ## Infrastructure Overview
 
 ## Installation – Grocery_mate (Terraform)
