@@ -52,14 +52,28 @@ Terraform modules are used for **reusability**, **maintainability**, and easy de
 Before deploying, ensure you have
 ## Infrastructure Overview
 
-The infrastructure is built using Amazon Web Services (AWS) to ensure **scalability**, **high availability**, and **security**. It leverages the following core services:
+## Installation – Grocery_mate (Terraform)
 
-- Amazon EC2 –                   Provides scalable compute capacity for application workloads  
-- Amazon RDS –                   Managed relational database service for data persistence  
-- Elastic Load Balancer (ELB) –  Distributes incoming traffic across multiple EC2 instances  
-- Auto Scaling Groups (ASG) –    Automatically adjusts compute capacity based on demand  
-- Amazon S3 –                    Object storage for static assets, backups, and logs  
-- Custom VPC –                   Isolated network environment with controlled access and enhanced security
+This project uses **Terraform** to provision and deploy the **Grocery_mate** infrastructure on **AWS**.  
+The infrastructure is designed for **scalability**, **high availability**, and **security**, leveraging core AWS services such as EC2, RDS, ELB/ALB, Auto Scaling Groups, S3, and a custom VPC.
+
+---
+
+### Prerequisites
+
+Ensure the following are installed and configured:
+
+- AWS account with sufficient IAM permissions
+- AWS CLI
+- Terraform (v1.3+)
+- Git
+
+Configure AWS credentials:
+
+```bash
+aws configure
+```
+
 
 Together, these components form a resilient and flexible cloud architecture capable of handling varying workloads while maintaining performance and reliability.
 
