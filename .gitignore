@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # IDE / Editor
 .idea/
@@ -30,26 +30,30 @@ infrastructure/terraform.tfvars
 
 # Sensitive variables
 terraform.tfvars
-=======
+
 # Local Terraform directories
 .terraform/
 
 # Terraform state files
 *.tfstate
 *.tfstate.*
->>>>>>> f244367 (Initial commit: CloudWatch log group, S3 bucket, and CloudTrail resources)
+ (Initial commit: CloudWatch log group, S3 bucket, and CloudTrail resources)
 
 # Crash logs
 crash.log
 
-<<<<<<< HEAD
+
 # CLI configuration
 .terraformrc
  (Initial commit: add Terraform infrastructure code)
 
 README_backup.md
-=======
+
 # Sensitive variable files
 *.tfvars
 
->>>>>>> f244367 (Initial commit: CloudWatch log group, S3 bucket, and CloudTrail resources)
+
+ (Initial commit: CloudWatch log group, S3 bucket, and CloudTrail resources)
+
+.terraform.lock.hcl
+ (Ignore Terraform lock file)
