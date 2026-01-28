@@ -1,3 +1,8 @@
+variable "alert_email" {
+  description = "Email address to receive CloudWatch alerts"
+  type        = string
+}
+
 variable "region" {
   description = "The AWS region to deploy resources in"
   type        = string

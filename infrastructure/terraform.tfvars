@@ -1,3 +1,4 @@
+alert_email = "chrisdaron2@gmail.com"
 region      = "us-east-1"
 db_name     = "mydatabase"
 db_username = "admin"
