@@ -1,15 +1,21 @@
-variable "instance_type" {
-  description = "EC2 instance type"
-  default     = "t3.micro"
+variable "region" {
+  description = "The AWS region to deploy resources in"
+  type        = string
+  default     = "us-east-1"  # optional default
+}
+
+variable "db_name" {
+  description = "The name of the PostgreSQL database"
+  type        = string
 }
 
 variable "db_username" {
-  description = "RDS database username"
+  description = "Username for the PostgreSQL database"
   type        = string
 }
 
 variable "db_password" {
-  description = "RDS database password"
+  description = "Password for the PostgreSQL database"
   type        = string
   sensitive   = true
 }

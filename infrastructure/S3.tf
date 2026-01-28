@@ -1,18 +1,12 @@
+# S3.tf
+
+# Random suffix for S3 bucket
+resource "random_id" "bucket_suffix" {
+  byte_length = 4
+}
+
+# Create anonymous S3 bucket
 resource "aws_s3_bucket" "avatars" {
-  bucket = "grocerymate-avatars-tabe2"
-
-  tags = {
-    Name        = "grocerymate-avatars"
-    Environment = "Dev"
-  }
+  bucket = "grocerymate-avatars-${random_id.bucket_suffix.hex}"
 }
 
-# S3 Bucket Public Access Block (Block ALL public access)
-resource "aws_s3_bucket_public_access_block" "avatars" {
-  bucket = aws_s3_bucket.avatars.id
-
-  block_public_acls       = true
-  block_public_policy     = true
-  ignore_public_acls      = true
-  restrict_public_buckets = true
-}
