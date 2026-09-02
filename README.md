@@ -237,6 +237,7 @@ Access the Application After deployment is complete, the web application can be 
 
 Confirm Infrastructure Login to AWS console to confirm all the resources created
 
+
 👩🏽‍💻 About
 
 This project was completed as part of my Cloud Engineering training and
