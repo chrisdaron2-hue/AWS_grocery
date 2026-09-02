@@ -237,6 +237,17 @@ Access the Application After deployment is complete, the web application can be 
 
 Confirm Infrastructure Login to AWS console to confirm all the resources created
 
+👩🏽‍💻 About
+
+This project was completed as part of my Cloud Engineering training and
+hands-on AWS development.
+
+My focus is on building reliable cloud infrastructure and developing my
+skills in AWS, Terraform, Docker and DevOps.
+
+I am currently open to Junior Cloud Engineer, AWS and DevOps opportunities
+and freelance cloud infrastructure projects.
+
 
 
 
